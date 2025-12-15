@@ -2,102 +2,117 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>CAN Maroc</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CAN Maroc 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-gray-50 text-gray-800 font-sans">
 
-<body>
-
-    <header>
-        <h1>Coupe d’Afrique des Nations</h1>
-        <p>Édition organisée au Maroc </p>
-
-
+<!-- Header -->
+<header class="bg-gradient-to-r from-red-700 via-red-600 to-red-800 text-white text-center py-20 px-5 relative overflow-hidden">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">Coupe d’Afrique des Nations</h1>
+    <p class="text-lg md:text-xl mb-8 drop-shadow-md">Édition organisée au Maroc 2025</p>
     
-        <img src="IMAGE1.jpg    " alt="description">
+    <div class="flex justify-center gap-6 flex-wrap">
+        <a href="stadetanger.html"
+           class="bg-white text-red-700 px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-gray-200 transition transform hover:-translate-y-1 hover:scale-105">
+           Voir le stade
+        </a>
+        <a href="#villes" 
+           class="bg-yellow-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-yellow-600 transition transform hover:-translate-y-1 hover:scale-105">
+           Découvrir les villes
+        </a>
+    </div>
 
-    </header>
+    <img src="IMAGE1.jpg" alt="Stade au Maroc"
+         class="mx-auto mt-10 rounded-2xl shadow-2xl max-w-full border-4 border-white">
+</header>
 
+<!-- Présentation -->
+<section class="max-w-5xl mx-auto bg-white p-10 mt-12 rounded-2xl shadow-lg">
+    <h2 class="text-3xl font-bold text-red-700 mb-4">Présentation</h2>
+    <p class="text-gray-700 text-lg leading-relaxed">
+        La Coupe d’Afrique des Nations (CAN) est la plus prestigieuse compétition
+        de football africain. L'édition 2025 se tiendra au Maroc, réunissant les meilleures équipes du continent.
+    </p>
+</section>
 
+<!-- Le Maroc, pays hôte -->
+<section class="max-w-5xl mx-auto bg-white p-10 mt-10 rounded-2xl shadow-lg">
+    <h2 class="text-3xl font-bold text-red-700 mb-4">Le Maroc, pays hôte</h2>
+    <p class="text-gray-700 text-lg leading-relaxed">
+        Reconnu pour sa passion du football et ses infrastructures modernes,
+        le Maroc est fier d'accueillir cette compétition majeure.
+    </p>
+</section>
 
-    <section>
-        <h2>Présentation</h2>
-        <p>
-            La Coupe d’Afrique des Nations (CAN) est une compétition
-            de football qui réunit les meilleures sélections africaines.
-            Cette édition aura lieu au Maroc.
-        </p>
-    </section>
+<!-- Villes et stades -->
+<section id="villes" class="max-w-5xl mx-auto bg-white p-10 mt-10 rounded-2xl shadow-lg">
+    <h2 class="text-3xl font-bold text-red-700 mb-6">Villes et stades</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+            <h3 class="text-xl font-semibold mb-2">Casablanca – Stade Mohammed V</h3>
+            <a href="page2.html"
+               class="inline-block mt-4 bg-red-700 text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-red-800 transition transform hover:-translate-y-1 hover:scale-105">
+               Voir le stade de Rabat
+            </a>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
+            <h3 class="text-xl font-semibold mb-2">Marrakech – Grand Stade de Marrakech</h3>
+            <a href="stadetanger.html"
+               class="inline-block mt-4 bg-red-700 text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-red-800 transition transform hover:-translate-y-1 hover:scale-105">
+               Voir le stade de Tanger
+            </a>
+        </div>
+    </div>
+</section>
 
-    <section>
-        <h2>Le Maroc, pays hôte</h2>
-        <p>
-            Le Maroc est un pays reconnu pour sa passion du football
-            et ses infrastructures modernes.  
-            L’organisation de la CAN est une grande fierté pour le pays.
-        </p>
-    </section>
+<!-- Sélections nationales -->
+<section class="max-w-5xl mx-auto bg-white p-10 mt-10 rounded-2xl shadow-lg">
+    <h2 class="text-3xl font-bold text-red-700 mb-6">Sélections qualifiées</h2>
+    <ul class="grid md:grid-cols-2 gap-3 text-gray-700 text-lg list-disc list-inside">
+        <li>Maroc (pays hôte)</li>
+        <li>Côte d’Ivoire</li>
+        <li>Burkina Faso</li>
+        <li>Égypte</li>
+        <li>Algérie</li>
+        <li>Angola</li>
+        <li>République démocratique du Congo</li>
+        <li>Cameroun</li>
+        <li>Sénégal</li>
+        <li>Guinée équatoriale</li>
+        <li>Comores</li>
+        <li>Gabon</li>
+        <li>Nigeria</li>
+        <li>Zambie</li>
+        <li>Mali</li>
+        <li>Zimbabwe</li>
+        <li>Afrique du Sud</li>
+        <li>Ouganda</li>
+        <li>Botswana</li>
+        <li>Bénin</li>
+        <li>Soudan</li>
+        <li>Tanzanie</li>
+        <li>Mozambique</li>
+    </ul>
+</section>
 
-    <section>
-        <h2>Villes et stades</h2>
-        <ul>
-            <li>Casablanca – Stade Mohammed V</li>
-<a href="image2.html" class="btn">Voir le stade</a>
-            <li>Marrakech – Grand Stade de Marrakech</li>
-<a href="stadetanger.html" class="btn">Voir le stade</a>
+<!-- Pourquoi cette CAN est spéciale -->
+<section class="max-w-5xl mx-auto bg-white p-10 mt-10 rounded-2xl shadow-lg">
+    <h2 class="text-3xl font-bold text-red-700 mb-4">Pourquoi cette CAN est spéciale</h2>
+    <p class="text-gray-700 text-lg leading-relaxed">
+        Cette édition promet une ambiance exceptionnelle, des supporters passionnés
+        et un niveau de jeu très élevé avec les meilleures équipes d'Afrique.
+    </p>
+</section>
 
-
-        </ul>
-    </section>
-   <section> 
-    <h2>    les sélections nationales qualifiées pour la Coupe d’Afrique des Nations (CAN) 2025 au Maroc</h2>
-<ul> 
-    <li><h2></h2>Maroc (pays hôte)</li></h2> </li>
-    <li>Côte d’Ivoire  </li>
-    <li> Burkina Faso</li>
-    <li>Égypte </li>
-    <li> Algérie</li>
-    <li> Angola</li>
-    <li> République démocratique du Congo</li>
-    <li> Cameroun</li>
-    <li> Sénégal </li>
-    <li> Guinée équatoriale</li>
-    <li> Comores </li>
-    <li> Gabon</li>
-    <li>Nigeria </li>
-    <li> Zambie</li>
-    <li> Mali</li>
-    <li> Zimbabwe</li>
-    <li> afrique du sud </li>
-    <li> Ouganda</li>
-    <li> Botswana</li>
-    <li> Bénin </li>
-    <li> Soudan </li>
-    <li> Tanzanie</li>
-    <li> Mozambique</li>
-
-</ul>
-   </section>
-
-
-
-
-    <section>  
-
-
-        <h2>Pourquoi cette CAN est spéciale</h2>
-        <p>
-            Cette édition est très attendue grâce à l’ambiance,
-            aux supporters et au niveau élevé des équipes participantes.
-        </p>
-    </section>
-
-    <footer>
-        <p>Site réalisé par Haitham Aboulam</p>
-    </footer>
+<!-- Footer -->
+<footer class="text-center p-8 mt-12 bg-gray-900 text-white rounded-t-3xl">
+    <p class="font-semibold">&copy; 2025 Site réalisé par Haitham Aboulam</p>
+</footer>
 
 </body>
 </html>
+
 
 
 
